@@ -30,6 +30,7 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
+    
     'google' => [
         'client_id' => '612609179035-55htev4cli81o65gfm3po9l0dcid0jcj.apps.googleusercontent.com',
         'client_secret' => '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',
